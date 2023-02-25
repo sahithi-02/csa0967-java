@@ -1,0 +1,15 @@
+class overload {
+
+  public static void assign(int a) {
+    System.out.println("Assigned value of a is: " + a);
+  }
+
+  public static void assign(int a, int b) {
+    System.out.println("Assigned values of a and b are: " + a + ", " + b);
+  }
+
+  public static void main(String[] args) {
+    assign(10);
+    assign(20, 30);
+  }
+}
